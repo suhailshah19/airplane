@@ -113,6 +113,7 @@ class HomePage extends StatelessWidget {
           bottom: 100,
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               'New This Year',
